@@ -19,7 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "engines": {
-    "node": "16.x"
+    "node": "16.x",
+    "npm": "7.x"
   },
   "scripts": {
     "start": "react-scripts --max_old_space_size=4096 start",
