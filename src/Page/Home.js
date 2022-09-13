@@ -11,7 +11,6 @@ import code_up from '../Assets/data/code_up.json';
 import code_botton from '../Assets/data/code_botton.json';
 import works from '../Assets/data/work.json';
 import cv from '../Assets/doc/cv.pdf';
-const Spline = lazy(() => import('@splinetool/react-spline'));
 
 export default function Home() {
     gsap.registerPlugin(ScrollTrigger);
@@ -82,9 +81,6 @@ export default function Home() {
                 </Navbar.Collapse>
         </Navbar>
         <div className='container-body'>
-            <Suspense fallback={<Loading />} >
-                <Spline className='spline-pc' scene="https://prod.spline.design/41dUNq54vbdcZgW7/scene.splinecode" />
-            </Suspense>
             <div className='section-main'>
                 <section ref={ref => containerRef.current.home=ref} className='code' id='home'>
                     {code_up.map((cod, key) => (
