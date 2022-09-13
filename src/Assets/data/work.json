@@ -1,0 +1,23 @@
+[
+    {
+        "picture": "academico-voip.jpeg",
+        "description": "Sistema web academico integrado con telefonia IP",
+        "alt": "academico-voip",
+        "link_web": "http://app-873282b0-236c-480e-add3-7d08817fc520.cleverapps.io/",
+        "link_repo": "https://github.com/EdwinGit0/academicoVOIP"
+    },
+    {
+        "picture": "chat-react.jpeg",
+        "description": "Sitio web de chat con socket io",
+        "alt": "chat-react",
+        "link_web": "https://react-socket-fazt.herokuapp.com/",
+        "link_repo": "https://github.com/EdwinGit0/chat-basic"
+    },
+    {
+        "picture": "meme-react.jpeg",
+        "description": "Sitio web para diseñar memes",
+        "alt": "meme-react",
+        "link_web": "https://meme-maket-react.herokuapp.com/",
+        "link_repo": "https://github.com/EdwinGit0/meme-maket"
+    }
+]
