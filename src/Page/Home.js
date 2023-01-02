@@ -1,9 +1,8 @@
-import React, {Suspense, useEffect, useRef, lazy} from 'react';
+import React, {useEffect, useRef} from 'react';
 import '../Style/style.css';
 import { BsCodeSlash, BsGithub, BsLinkedin, BsEnvelopeFill, BsFillHeartFill } from 'react-icons/bs';
 import {gsap, Power4} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Loading from '../Component/Loading';
 import Work from '../Component/Work';
 import Typed from 'react-typed';
 import {Nav, Navbar} from 'react-bootstrap';
